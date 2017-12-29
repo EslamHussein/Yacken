@@ -12,10 +12,10 @@ Architecture (MVP - Model View Presenter)
 --------------------------
 Build Requirements
 ------------------
-Android studio v3
-Build tools version 26.1.0
-API level 26
-MinSdk 17
+- Android studio v3
+- Build tools version 26.1.0
+- API level 26
+- MinSdk 17
 
 
 --------------------------
