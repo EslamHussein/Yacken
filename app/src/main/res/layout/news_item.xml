@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view_news_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:minHeight="40dp"
+            android:minWidth="40dp"
+            android:src="@drawable/icon_place_holder" />
+
+        <TextView
+            android:id="@+id/text_view_news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/image_view_news_image"
+            tools:text="Eslam jknasjkd jkas jkdnjka snj kjhj kjhj kjhjk hkj jhjkh kjh jk hjkh kjhkjh kjkh khkjhjkhkj jkhkjhk hkjh kjhjkh jkh hkj kjhk kjh d jnkasjnkd jnkasnjkd ajknsdnj an" />
+
+        <TextView
+            android:id="@+id/text_view_published_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/text_view_news_title"
+            android:layout_marginEnd="4dp"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            tools:text="asd asd asd asd" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

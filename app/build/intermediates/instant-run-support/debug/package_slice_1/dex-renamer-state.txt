@@ -1,0 +1,4 @@
+#Fri Dec 29 19:21:40 EET 2017
+base.0=/Users/mac/Documents/Tasks/YSolution/app/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex
