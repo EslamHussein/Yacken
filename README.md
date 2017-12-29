@@ -28,5 +28,5 @@ Third party libraries
 3. **OkHttp**: used for making the actual HTTP requests by Retrofit
 4. **Gson**: used for parsing network calls responses by Retrofit and is used through Retrofit's ConverterFactory
 5. **RxJava**: adding a reactive flavor for the glue between our layers, all communication through Repository, Model and Presenter are through RxJava's Observables
-6 **Picasso**: used for image loading and caching in memory and on disk
-7 **LeakCanary**: used for detecting memory leaks [Only in debug mode]
+6. **Picasso**: used for image loading and caching in memory and on disk
+7. **LeakCanary**: used for detecting memory leaks [Only in debug mode]
